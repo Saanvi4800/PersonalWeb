@@ -1,0 +1,46 @@
+@import "tailwindcss";
+body {
+  background-color: #faf5d0;
+  background-image:  linear-gradient(#c0ca98 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #c0ca98 1.2000000000000002px, #faf5d0 1.2000000000000002px);
+  background-size: 24px 24px;
+  margin: 0;
+}
+
+.alegreya-title {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+h1{
+  opacity: 0.7;
+  font-family: "Archivo Black", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 3rem;
+  margin-left: 180px;
+}
+
+p{
+  opacity: 0.7;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-left: 180px;
+}
+
+p a {
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #0a2f04;
+  text-decoration-thickness: 2px;
+}
