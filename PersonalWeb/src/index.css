@@ -20,7 +20,7 @@ h1{
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: 180px;
   margin-top: 80px;
 }
@@ -33,6 +33,7 @@ p{
   font-style: normal;
   font-size: 1.5rem;
   margin-left: 180px;
+  padding-bottom: 67px;
 }
 
 p a {
@@ -44,4 +45,5 @@ p a:hover {
   text-decoration-style: wavy;
   text-decoration-color: #0a2f04;
   text-decoration-thickness: 2px;
+
 }

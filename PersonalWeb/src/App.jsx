@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
+import Bottom from "./components/bottom";
 import './index.css';
 
 import Home from "./pages/Home";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/diy" element={<Diy />} />
         </Routes>
+        <Bottom />
      </BrowserRouter>
   );
 }

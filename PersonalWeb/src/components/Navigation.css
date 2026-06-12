@@ -12,7 +12,7 @@
     color: rgb(231, 254, 234);
     font-family: "Alegreya", serif;
     font-size: large;
-    margin: 80px;
+    margin: 70px;
 }
 
 
@@ -33,13 +33,16 @@
   text-decoration-style: wavy;
   text-decoration-color: #ffffff;
   text-decoration-thickness: 2px;
+  font-style: italic;
+
 }
 
 .circle-container {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  overflow: hidden; /* Clips the image corners */
+  overflow: hidden; 
+  margin: 20px auto;
 }
 
 .circle-container img {
@@ -59,3 +62,8 @@ img {
   cursor: pointer; 
   opacity: 1;
  }
+
+ .contact {
+    display: flex;
+    justify-content: center;
+}
