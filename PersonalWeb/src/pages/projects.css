@@ -1,6 +1,6 @@
 
 .page {
-  height: 100vh;
+  height: 1000vh;
   display: flex;
   flex-direction: column;
   margin-left: 180px;
@@ -18,8 +18,8 @@ h2{
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
-  margin-left: 50px;
-  margin-right:50px;
+  margin-left: 1vh;
+  margin-right:1vh;
   padding-bottom: 67px;
 }
 
@@ -30,24 +30,55 @@ h3{
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
-  margin-left: 50px;
-  margin-right:50px;
+  margin-left: 1vh;
+  margin-right:1vh;
   padding-bottom: 20px;
   font-style: italic;
   font-weight: bold;
+  font-size: clamp(1rem, vh + 1em, 1.3rem);
 
 }
+
 .image-gallery {
-  margin-top: -30px;
-  display: flex;
-  flex-wrap: wrap;       /* allows wrapping to next line */
-  gap: 10px;             /* space between images */
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.earlyweb a {
+  font-family: "Alegreya", serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none; 
+  opacity: 0.9;
 }
 
-.image-gallery img {
-  flex: 1 1 200px;       /* grow, shrink, base width */
-  max-width: 35%;
-  height: auto;
-  object-fit: cover;
+.earlyweb a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #0a4904;
+  text-decoration-thickness: 2px;
+  font-style: italic;
+
+}
+
+
+a {
+  font-family: "Alegreya", serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-decoration: none; 
+  opacity: 1;
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #0a4904;
+  text-decoration-thickness: 2px;
+  font-style: italic;
 }
