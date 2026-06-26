@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^7.3.0",
+    "@fortawesome/react-fontawesome": "^3.3.1",
     "@hackclub/icons": "^0.2.2"
   }
 }

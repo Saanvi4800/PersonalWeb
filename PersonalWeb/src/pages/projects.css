@@ -1,0 +1,53 @@
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  margin-top: 20px;
+  gap: 10px;
+  font-family: "Archivo Black", sans-serif;
+  opacity: 0.7;
+  font-size: large;
+}
+
+h2{
+  opacity: 0.7;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin-left: 50px;
+  margin-right:50px;
+  padding-bottom: 67px;
+}
+
+h3{
+  opacity: 0.7;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin-left: 50px;
+  margin-right:50px;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+.image-gallery {
+  margin-top: -30px;
+  display: flex;
+  flex-wrap: wrap;       /* allows wrapping to next line */
+  gap: 10px;             /* space between images */
+  justify-content: center;
+}
+
+.image-gallery img {
+  flex: 1 1 200px;       /* grow, shrink, base width */
+  max-width: 35%;
+  height: auto;
+  object-fit: cover;
+}

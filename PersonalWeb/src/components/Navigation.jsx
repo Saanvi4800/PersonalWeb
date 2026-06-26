@@ -30,7 +30,7 @@ function Navigation() {
                   <Icon glyph="email" size={25} />
                 </a>
         
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/saanvi-tripathi-88b977381/" target="_blank" rel="noopener noreferrer">
                   <Icon glyph="linkedin" size={25} />
                 </a>
         
