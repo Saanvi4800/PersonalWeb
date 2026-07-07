@@ -2,6 +2,14 @@ import React from "react";
 import Collapsible from "../components/collap";
 import './projects.css';
 
+import g1 from "../assets/g1.png";
+import g2 from "../assets/g2.png";
+import g3 from "../assets/g3.png";
+import g4 from "../assets/g4.png";
+import g5 from "../assets/g5.png";
+import g6 from "../assets/g6.png";
+import g7 from "../assets/g7.png";
+
 function Project() {
   return (
     <div>
@@ -35,15 +43,15 @@ function Project() {
       <Collapsible title="New York City Air Quality Data Analysis - (December 2024 - July 2025)">
         <h3>Data analysis to analyze major pollutants and create recommendations for improving air quality in New York City. FBLA National Finalist Project.</h3>
         <h2>Graphs were created using python on google colab.</h2>
-        <div class="image-gallery">
-        <img src="src/assets/g1.png" alt="g1" ></img>
-        <img src="src/assets/g2.png" alt="g2" ></img>
-        <img src="src/assets/g3.png" alt="g3" ></img>
-        <img src="src/assets/g4.png" alt="g4" ></img>
-        <img src="src/assets/g5.png" alt="g5" ></img>
-        <img src="src/assets/g6.png" alt="g6" ></img>
-        <img src="src/assets/g7.png" alt="g7"></img>
-        </div>
+        <div className="image-gallery">
+            <img src={g1} alt="g1" />
+            <img src={g2} alt="g2" />
+            <img src={g3} alt="g3" />
+            <img src={g4} alt="g4" />
+            <img src={g5} alt="g5" />
+            <img src={g6} alt="g6" />
+            <img src={g7} alt="g7" />
+          </div>
       </Collapsible>
     </div>
     </div>
