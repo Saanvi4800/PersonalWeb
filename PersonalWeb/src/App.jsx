@@ -7,6 +7,7 @@ import './index.css';
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Diy from "./pages/Diy";
+import Photography from "./pages/Photography";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/diy" element={<Diy />} />
+          <Route path="/photography" element={<Photography />} />
         </Routes>
         <Bottom />
      </BrowserRouter>

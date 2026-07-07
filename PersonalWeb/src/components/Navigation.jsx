@@ -50,6 +50,7 @@ function Navigation() {
           <li><Link to="/">home</Link></li>
           <li><Link to="/projects">projects</Link></li>
           <li><Link to="/diy">diys</Link></li>
+          <li><Link to="/photography">photography</Link></li>
         </ul>
       </nav>
     </div>
