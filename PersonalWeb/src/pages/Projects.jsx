@@ -10,6 +10,18 @@ import g5 from "../assets/g5.png";
 import g6 from "../assets/g6.png";
 import g7 from "../assets/g7.png";
 
+import g126 from "../assets/g126.png";
+import g226 from "../assets/g226.png";
+import g326 from "../assets/g326.png";
+import g426 from "../assets/g426.png";
+import g526 from "../assets/g526.png";
+import g626 from "../assets/g626.png";
+import g726 from "../assets/g726.png";
+import g826 from "../assets/g826.png";
+import g926 from "../assets/g926.png";
+import g1026 from "../assets/g1026.png";
+import g1126 from "../assets/g1126.png";
+
 function Project() {
   return (
     <div>
@@ -19,6 +31,20 @@ function Project() {
 
       <Collapsible title="LA Olympics 2028 Data Analysis - (September 2025 - July 2026)">
         <h3>Data analysis to create recommendations for the planning of the 2028 LA Olympics. FBLA National Qualifying analysis.</h3>
+        <h2>Graphs were created using python on google colab.</h2>
+        <div className="image-gallery">
+            <img src={g126} alt="g126" />
+            <img src={g1126} alt="g1126" />
+            <img src={g1026} alt="g1026" />
+            <img src={g426} alt="g426" />
+            <img src={g526} alt="g526" />
+            <img src={g626} alt="g626" />
+            <img src={g726} alt="g726" />
+            <img src={g826} alt="g826" />
+            <img src={g926} alt="g926" />
+            <img src={g326} alt="g326" />
+            <img src={g226} alt="g226" />
+          </div>
       </Collapsible>
 
       <Collapsible title="Athena Award Hack Club Projects - (August 2025 - November 2025)">
