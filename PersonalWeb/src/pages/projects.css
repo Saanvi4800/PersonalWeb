@@ -7,7 +7,6 @@
   margin-top: 20px;
   gap: 10px;
   font-family: "Archivo Black", sans-serif;
-  opacity: 0.7;
   font-size: large;
 }
 
@@ -43,7 +42,7 @@ h3{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
-
+  opacity: 0.8;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -81,4 +80,15 @@ a:hover {
   text-decoration-color: #0a4904;
   text-decoration-thickness: 2px;
   font-style: italic;
+}
+
+.image-gallery-two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  opacity: 0.93;
 }

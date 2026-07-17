@@ -25,7 +25,7 @@ import g1126 from "../assets/g1126.png";
 function Project() {
   return (
     <div>
-      <h1>My Projects</h1>
+      <h1>Projects</h1>
 
       <div className="page">
 

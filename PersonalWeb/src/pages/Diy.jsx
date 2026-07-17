@@ -8,6 +8,7 @@ function DIY() {
       <h1>DIY Page</h1>
 
       <div className="page">
+        <h3>pictures coming soon!</h3>
       <Collapsible title="Sweatpant shorts - (June 2026)">
         <h3>Took an old pair of sweatpants I wore when I was 10 again I think and cut them in half to make shorts. 
           Then I seam ripped the sides and took the extra fabric I had to insert darts into the sides of the shorts.
