@@ -15,6 +15,15 @@ https://github.com/user-attachments/assets/0e380f50-185e-4456-83f8-7f4bb9b96b52
 - Collabsible project sections so it doesn't feel so overwhelming
 - Contact icons and clickable photo
 
+## Setup/Quick Start
+install node.js (v18+) and npm or Yarn
+  
+    git clone <repo>
+    cd PersonalWeb
+    npm install
+    npm run dev
+
+
 ## How it works/was made 
 I used the React framework to create this website. This was the first time I used React for a project on my own, and the first time I used javascript, not typescript.
 I chose to use javascript because, being new to react, I wanted to understand the code better before I used typescript, which I immediately felt overwhelmed by. I didn't really have a technical reason to use javascript over typescript other than for understanding the code. 
